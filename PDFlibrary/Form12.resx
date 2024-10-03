@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>
+UNIFIED MODELING LANGUAGE
+UML------ It stands for unified modeling language. Grady Booch and James Rambaugh at rational software corporation started work on UML in 1994.There are goal was to create a new method called unified method.The first version 1.0 was realized in 1997.
+				It is a general purpose visual modeling language which is used to specify, visualize, construct and document the genuine factors of a system. It is not just a notation for drawing diagrams but a implicit language for computing knowledge about a subject and expressing the knowledge about any 
+
+particular subject. It is totally based on object oriented paradigm. It captures the information about both static structures as well as behavior of the system.
+				The static structures define the kind of object as well as the relationship between the different objects. The dynamic behavior defines the history of the objects a no communication between them.
+				It is a universal general purpose modeling language for discreet system. It can be used for software modeling, communication, bigness modeling etc.  UML enables the capturing, communicating, operational knowledge.Strategic planning and tactical plan to facilities increase quality,redused cost time and risks.	
+GOALS OF UML---Uml may have following purpose of goals.
+1.It provides simple and extensible modeling technique.
+2.It support higher level component that is collaboration,framework,patterns etc.
+3.It is enough to handle the concept of modern system like concurrency and distributed system.
+4.It support the adding of new concepts beyond the core.
+5.UML also coupable for modeling the range of system and its prototype.
+
+USE OF UML--- The UML stands for the unified modeling language use to express the construct and the relationship of the complex system.It was created in response to request for proposal(RFP) from the object management group (OMG) UML is an attempt to standardlize the aircraft of analysis and design consisting of sementic models syntactic notation and diagram.
+
+THE MAJOR FEATURES OF UML ARE---
+1.defined systems structure for object modeling.
+2.support for different model organization.
+3.strong modeling for structure and behavior.
+4.clear representation of concurrent activities.
+5.support for object oriented patterns for design reuse.
+				
+				UML could be used in visualizing,specifying constructing and documenting object oriented system.UML is build up by structural,behavioral,grouping and anotational notation.
+	
+DIAGRAM OF UML---
+				Diagram are the graphical representation of a set of model elements.Diagram are the collection of graphical constructs with the visual relationship.They are also called as models because they are the visual representation of a program or system.It is part of specific view depending on the content of the diagram.
+USE CASE DIAGRAM---It describe the functionality of the system and the users of the system.These diagram contains actors,cases and their relationship.Actor represent the user of the system and the cases represents the condition for which the actor will be active.
+			
+Account
+Clerk
+												
+
+
+											 Store 
+
+												clerk
+											
+				In the above figure the big rectangle represents the system boundary and the inner rectangle represents the functionality of the system or actor.The stick man icon represent an actor or human user.
+
+CLASS DIAGRAM--- A class diagram represent the static structure of classes.a class diagram may contains the following,they are as follows.
+1.Classes representing the entities with common features which include operation attributes and association.
+2.Association represent  relationship between two or more classes.classes can be related to each other in a number of ways as below.
+a.Associated classes.
+b.Dependent classes.
+c.Specialised classes.
+d.Package classes.
+ 
+																
+
+
+
+SEQUENCE DIAGRAM(INTERACTION  DIAGRAM)---
+										Sequence diagram  describe the interaction between two classes.The interaction are the exchange of message between them.These diagram focus on the following.
+1.Classes rolles that object may play with the interaction.
+2.Lifelines,representing the existence of object over a period of time.
+3.message representing communication between object.
+4.Activation representing the time during which object performing an operation.
+					The main aspects of these diagram is that its shows the message communicated in between two objet at regular of time.
+						TCP/IP  network communication using TCP protocols.
+
+f					request												confirm												confirmation											connction stablish																					data flow---------											-----end of data											ok												connection terminator										ok												terminating											terminor
+COLLABORATION DIAGRAM----It describe the intractional among the class and association.It is modeled as the exchange of message between many classes and its association.It may include the following.
+1.Class rolles.
+2.association rolles.
+3.Message flow etc.
+			
+																																																									
+STATECHART   DIAGRAM----The state diagram describes the behavior of a class in response to external events.It also describe the lifecycle of an object in which it satisfied some condition,perform activity and may wait for some events.
+					A state diagram tipically a component to the description of a class. It shows all the possible states of an object.				
+
+
+
+
+
+
+																																																																																																																																														Wait  1
+Private 												Hour after 
+control												Sending  	
+												end																																																																																																												
+										Activity diagram
+										For E-mail 
+										Encryption
+
+
+
+
+COMPONENT DIAGRAM----Component diagram describe the organization of components and dependency between them.The diagram contains the component that represent physical unit including source code,object code and executable codes.A component may be the subcomponent of source code,object code,binary code and executable code components.
+
+																
+
+
+
+DEPLOYMENT DIAGRAM----It gives the environmental view of the system.It also show the physical architecture of the hardware and sofware in the system.
+
+		
+
+
+
+					USE CASE
+INTRODUCTION TO USE CASE---Use case modeling technique that defines the functionality of the system actors and their different relationship.
+ 
+SYSTEM--- A system is defined as a collection of interrelated components responsible for accomplishing any particular purpose.The system is modeled by a top level subsystem that indirectly contains the entire set of model and its elements.UML can be used to address different type of system.
+					A system is addressed a box with the name inside it.
+					 																																			
+ACTOR— Actors are the  some ones that interact with the system for any purpose.In other words the actors are responsible for carrying out the  cases.An actor is a type rather than an object.
+					An actor may have a list of goals to accomplish.The interface of an actor can interact with system very easily and efficiently.
+
+																																				ACTOR																																																		
+USE CASE--- It is defined as a set of sequence of action in a system  perform by any actor to produced the result.The action may be the communication,calculate etc.Inside the system boundary with a system name and connected to the association symbols.
+					The association is normal a one to one relationship with no direction.The use case can be represented an ellipse containing the name of cases.
+
+		 						A/C clerk
+	case								Actor
+				RAILWAY RESERVATION
+
+Booking
+Clerk
+																								A/c clerk
+
+
+											manager	
+
+
+DOCUMENTING USE CASE---	There is a lot of documentation associated with use cases of t	hat needs to be organized some how.We want the documentation to be understable but we need other things as well.For example we may want to able be to trace from system land to subordinate use case or from use case to scenarios to test plans.We may want to be  able to set priority users on a use case or any part of a use cases than seen a report later listing all use case of a certain priority.
+
+GUIDELINE FOR DEVELOPING USE CASE---- The document of use case is very sensitive.Therefore certain guideline are defined to develop the use case model.The usecase model consist of multiple cases,actors,bundles,relationship etc.The guideline for the development of use case in define to the component of use case model of an organization.The model may be either static or dynamic.Some of the common guideline are as follows….
+
+1.AVOIDING ANALYSIS PARALYSIS----  It specify that during the development of use case  no analysis or processing is required rather the system is clearly studied and different cases of the system  are identified.Sentence analysis may create as generate the abnormal users.The straight forward method is apply to underspand the system,its responsibilities,boundaries and attribute.
+
+2.IDENTIFYING THE ACTOR----Identification of an actor is a tedious tasks in a use case model.Proper actor should be  identified and they should be assigned the proper case to handle efficiency. Means the loss of the organization per the identification of actors,actors are classified into following two groups…
+
+A.PRIMARY ACTORS---    Primary actors are the  actors that uses the system main function or functionalities.It means that primary actors goal are to hold the important cases which are more sensible and can effect the organization directly.
+
+B.SECONDRY ACTOR  --- There are the actors that uses the secondary functionalities.these functionalities are much sensible and cannot effect the organization directly.Some of the secondry cases are Database management,backup,system communication,administration.
+
+					Sometime actor can also be classified as active or passive.Active actors are those who initiates any use case but the passive actors can not initiate any use case rather the participate in any initiated case.
+
+3.IDENTIFICATION OF ESSENTIAL OF USE CASE--- It is very important to  identify the most sensitive aspects of a use case.The  essential responsibilities of a system or case may directly effect and organization and organizational performance.The identification of essential issues of use case may depends on the following step.
+
+A.Study the organization,cases and boundaries.
+B.list all the attribute of the cases.
+C.Ticout the important aspects that are directly associated to the cases.
+D.Again filter the aspects  which may directly inhance or hamper the performance of the case.
+				Identification of these essentials may require case discussion ,case study and independent case analysis.
+
+4.,case study and independent case analysis.
+
+4.ESTABLISHING USE CASE BUNDLES------The use case bundles defines the inter-relationship between the cases.There may be different kind of relationship between the different cases according to their attribute and behaviours.It is must to establish and specify the perfect relationship between the cases to achieve the system goals the relationship may be association,aggregation,generalization etc.
+
+5.DEVELOPING USE CASE DETAILS	--- This guideline is associated to the development and definition of use case details.It associated to the documenting the different components and their specification so that the next phase should be proceeded.The developing of use case  details may required different type of diagram,notation,expression etc.It must to clearly identified and defined all the aspects of use case including their totals  method and diagram.
+
+6.IDENTIFICATION OF THE SUPPORTING OF USE CASE--- It is must to identify the  supporting aspects of the use case.The use case is associated to many components to better their performance.The supporting factor must be identified and clearly defined so that the developers can keep on than.This supporting factors may play vital sale during the implementation and maintenance.
+
+7.SYSTEM MODELING--- 	System modeling specify the limit of an organization.It also separate the interial and interial components of a system.During the development of usecase,system boundary must be developed and there associated components.
+
+		FINDING THE OBJECT
+OBJECT  ORIENTED ANALYSIS---Object oriented  analysis is a modern concept of developing and defining a system.This is the modern approach for system modeling and organizing the attributes of a system object oriented analysis and design formats the following qualities in a product.
+1.Relaibility of the prepared system would be enhanced.
+2.It supports the component based development therefore reusability of components and behavior are possible.
+3.less development time.
+4.It adds the consistency to the program.
+5.It promotes the concept of generalization and specialization.
+6.Object oriented system are abstract therefore they are  not directly accessed or restricted by the user.
+ 				The object oriented system may include the following concept.
+
+1.	ENCAPSULATION---The process of binding data together with their method to form and object is known as encapsulation.It enhance the consistency of data and does not allow to flow freely in the program.
+
+2.	ABSTRACTION--- This is the process of binding data from the external users component to maintenance the consistency of data and prevent the access of external components.
+
+3.	INHERITANCE----IT is the concept off object oriented system that promotes liabilities .It allow the programmars  to create a new class from an existing class by inheriting all or some features of an existing class.The new class created is called subclass or child class,or derive class.the existing class is called super class or parent class or base class.
+
+4.	POLYMORPHISM---This is the concept of object oriented system that allow to use a component in more than one forms.The word polymorphism has been derived from the two word “poly” means many and “morphic” means forms.polymorphism reduce the user overhead to remember separate method for similar type of task.
+
+5.	CLASS AND OBJECT--- Classes are considered as the abstract data type of objets.All the attribute and method of an object are defined and declared inside a class.It can also be defined as a collection of similar type of object.
+
+Object are the prime such time entities 
+A system .object can also be define as an instance of a class represented on the memory or system. 
+
+BUILDING OF OBJECT ORIENTED MODEL--- Object oriented system and reliable and efficient than other object oriented model. The concept of object oriented model was proposed by James rambaugh, Grady booch and Jacobson. The object oriented system may provide following advantage to the developers.
+1. Development of object oriented system a problem definition is very flexible than the other system.
+2. It also promotes the reusability of the modules and object.
+3. Object oriented system are more consistence and reliable than other structural models.
+4. It also provides the procedure for easier and better maintenance.
+5. Best design and design performance is providing by this model.
+
+					Some of the applications domains object oriented models can be implemented for the development are as follows.
+1. Advance database management system.
+2. System software design.
+3. Medical appliance.
+4. Scientific research.
+5. Embedded system.
+6. Business application.
+
+					The building of object oriented model requires more concentration and precision. The development of object oriented models requires some definite step to be followed. Some of the steps are as follows...
+1.IDENTIFICATION OF OBJECT AND OBJECT BEHAVIOUR---During the development of object oriented system, object and their attributes must be identified at the beginning so that the system can be easily modeled and defined. The identification of objects requires the intensive study of the system, system behavior and the relationship of object.
+2.SPECIFICATION OF ATTRIBUTES AND BEHAVIOUR---  An object consist of attribute(data) and behavior(method).Both decides the object influence and sale a system. The attribute and behavior are abstracted and encapsulated to gain the advantage of object oriented model.
+
+3.CLASS SPECIFICATION---A class is defined as a group of similar type of object. It is must to specify the classes of the system to develop the required object. Before the development of object class must be define to achieve the goal of object orientation.
+
+STATIC BEHAVIOUR---The static behavior pf a system define the fixed attribute and method which are not affected by any condition, or circumstances. The static behavior of a system may depend on the designing issues and attributes of an object or the system. The operating system or the system software is responsible for the identification and implementation of these behaviors.
+					The static behaviors are not flexible rather they are very useful in terms of consistency and the initialization of an object. 
+
+
+				DESIGN
+
+DESIGN--- Design specify the overall structure and organization of entities of a system. The design specification many contains the introduction of case and every entities of a system and how they are inter-related to each other. It is an important aspect to develop a system. It guides the development and implementation procedure during the system development.
+					A quality design may reduce the development overhead, time, money and errors. A poor design specification may cache software arises or in efficient package that can not the market demand. The design specification may include the proper plan to implement. 
+					Designing a system is aphase of development that may are different type of algorithms and diagram to specify the system previously. It also include data defination procedure and data structure for the physical data represent some of the different type of diagram used during the designing  may be use case,intraction diagram,class diagram,association diagram,links etc.
+					System developers uses a comprehensive study to analyze and identify the system design and detail design.The system design is associated to the key internal factors.Associated to the system development where as the detail design includes overall internal and external aspects of a system.
+
+SYSTEM DESIGN--- The system design specify over factors of a system required for its develop or operation.it generally includes internal factor or system working on processing.It directly effect the system development and implementation following step must be followed for the specification of system design.
+1.Study the system and identify the object.
+2.categories the object according to their behavior.
+3.define the specification and relationship of an object.
+4.Draw the specify diagram in order to specify the composition and relationship between the object and their classes.
+5.Specify the deployment and implementation planning for the system.
+
+DETAILED DESIGN--- The detail design includes the specification system internal as well as external factors.It may specify requirement  specification,operatin specification etc.Detail design should be precise and relevant so that system can be properly maintained and implemented.
+				Detailed specification may use different types of  diagram and procedure to specify the system activities and implementation.Detail design is used for testing,implementation maintenance and future  references it is used by the  student, for case  to identify to organizational behavior and system behavior.
+
+
+
+
+
+
+
+
+
+
+
+
+			THE MODEL
+
+OBJECT ORIENTED MODEL----Object oriented model specify the defining of a system through object oriented technology.The introduction of object oriented may increase the performance are flexibility of the propose system object oriented modeling may use the following concept associated with the development.
+1.Class and object implementation.
+2.abstaction and encapsulation.
+3.Inheritance and interface.
+4.Polymorphism.
+5.Generic programming.
+6.Error handling.
+					Object oriented model may provide to following advantage to the system.
+
+1.Object oriented modeling may provide a higher level of integrity to the system data and information.
+2.Object oriented modeling reduce the development overhead.
+3.It provide reusability to the  development modules.
+4.It supports rapid application development.It means it support parallel module development.
+5.How development time is an object oriented model.
+6.Maintenance and implementation of object oriented system are very easy.
+7.It provides logical and physical independency  to object of object oriented system.8.Object oriented modeling is used where précised a large system is required to development.
+					Object oriented modeling may have a broad application regarding the development a research. Object oriented modeling technique can be applied on the various field like…
+1.DATABASE DESIGN---Now a day’s object oriented database management system are getting popular due to its flexibility and versatile attribute. These databases are used in artificial intelligence and management information system.
+2.SYSTEM SOFTWARE DESIGNING--- Object oriented model are used for the development of fast and precise operating system.Real time operating system are based on object oriented model so that they can give faster response to the user.
+3.MEDICAL  AND RESEARCH TOOLS--- Medical and research tools should be very precise fast so that they can produce the information time with accuracy. A title mistake or let may cause a huge loss or problem.
+4.BUSINESS APPLICATION---  For a larger business with a huge number of transition object oriented modeling is preferred to design a base application.The application must represent a realtime information  to the users.It helps to take better decision during the business processing.
+
+SUBSYSTEM--- Subsystem are some small system inside a large many subsystem are interconnected or assembled.Create a large and complex aggregated system.Some these subsystem are also considered as a module an object oriented system.
+				For example.A school management system can be developed by aggregating the some system liabrary information system,a student information system,employee etc.The division of a large and complex system into subsystem may provide following  advantage to the developers.
+1.It reduce the development complexity.
+2.Debugging of system is made easier.
+3.Implementation of subsystem also add flexible in the maintenance of a system.
+4.The concept of subsystem promotes the form development and hence it will take development time.
+5.subsystem also provide the features of reusability and relationship.The reusability and relationship provides the facility to reuse any application or data.
+					Subsystem is broadly implementation of object oriented model to develop large  a complex system.The implementation of subsystem requires the following steps to be allowed by a developer.
+1.IDENTIFYING SYSTEM--- It is a process of analyzing a system to identify and select the subsystem a complex system.The identification process may the following capabilities in the system analised.
+(a). He must have complete information about the process system and its working.
+(b).He must have the knowledge of software engineering and its model.
+(c).He must have an idea about the  different phase analysis and development.
+(d).He should be sharp minded with goal communication skill.
+					System analyses analyzed  thewhole system and break the system into separate modeling responsible for performing specific type of operation.The identification of module can be done according to the entities used in the system.so that the integrity can maintain with flexibility.
+
+2.ORGANISING SUBSYSTEM--- This step is responsible to organize or to define this interconnection between all the subsystem so that the required objective can be achieved.Organising subsystem is the most important and  sensitive phase of developing an object oriented system.It requires regular testing and calculation of performance so that the security of the system can not be related.   
+
+
+
+
+
+
+
+			     RELATIONSHIP
+
+Relationship specify the logical connection between events type of entities.Relationship can be  considered a conceptual construct that specify how an entity as inter-related to another.the inter-relationship may be structure or behavioral.There are different types of relationship,specify the type of connection.according to behavior they are following kinds of relationship.
+1.	Association.
+2.	Dependency.
+3.	Flow.
+
+ 2. DEPENDENCY--- Dependency specify how an object is associate or dependent other object the dependency would be function an entity would be functionality dependent on other unit.It can be considered as a semantic relation between two model or element.
+				For example in a client server architecture model.Client are dependent on the server for different type of server.In a dependency diagram the dependency is shown with the help of dashed arrow as below. 
+										
+
+
+3.FLOW---Flow relationship inter connects to version of an object at different time or place.The flow is a simple relationship with a weak bind.Flow relationship only that an object is associated to another object by its behavior.for example the different version of operating system.Its arrow can be use to define the flow diagram.     
+4.GENERALISATION/SPECIALISATION---Generalization is the  type of relationship that relate the general description of the parent class to the specialized child class.The concept of the generalization promotes reusability and maintainability of object oriented system.The process of generalization can be implemented through  inheritance.In generalization the common properties of specialized object or classes are inherited to construct a new general class having the common characteristic of existing all special element.The concept of generalization and specialization have following advantage to the developers.
+
+(a).It support reusability of object.
+(b).The concept of generalization and specialization provides an easy mean to debug and maintenance a program.
+(c).It also makes the development easier as a complex concept can be implemented is smaller module.
+(d).Existance of specialized and generalized process also provide an easy means to modify the behavioral structure of a program.
+					Generalization\Specialization is a concept of developing a special class by inheriting common features from existing general classes. Generalization specialization are the two sides of  a coin object oriented system apply them in the development approaches top to down or bottom-up.
+
+5.LINKS--- Links are the simple relationship between two or more object.It is a dynamic behavior that specify a logical connection between two or more object or thestack of the object .They related two object but they are not the part of my object.A link  must have qualifies as well as roles.There different type of role of object in the link ,some are as follows.
+(a).GLOBAL---It is the constraint that specify the object in visible to all users.
+(b).LOCAL--- It is apply to all a link that specify the object in visible to only limited area and by limited user but not by all user.
+(c).PARAMETER--- It specify that object is visible to the honour the method to which it is panel.
+(d).BROAD CAST--- It  is the constraint applied to the set of manager receive by all the objects manage is visible to only who has received the manage.
+(e).VOTE---It is  a collection of returned message
+					Links can be identified by their nature and behavior.links plays an important role to define the relationship between object of different type and classes.Links are identified in the qualities set along with them.A link diagram define the link between two object by allocated arrow.
+		   
+						LINK						
+
+MANAGING AND DOCUMENTING RELATIONSHIP---The word management is associated with organizing specifying defining implementation and maintenance of object oriented system.UML provides different method to manage the relationship.The management of relationship include the following step….
+1.Identify each and every entity of a system.The identification process should be precise,so that dependent and independent entities can be uniquely identified with their attribute.
+2.ENTITY DEFINATION---It includes the definition of the entities together with their roles and their activities.UML manager apply use case diagram to define the entities and their roles.
+3.RELATIONSHIP IDENTIFICATION--- It should be very precise for the development of correct and efficient system.Each and every entities should analyzed to identify how entities are related to other entities in term of association,links,aggregation etc.
+4.DOCUMENTING RELATIONSHIP---This step may include different method and technique to define the relationship between the different entities of a system.The documentation may include the definition of all type of relation together with the relationship diagram.The relationship diagram may include association diagram,interaction diagram,link diagram,dependency diagram etc.
+					One of the precise way of working when the relationship is the documentation of the relationship between the object is same type or different type. During documentation following point must be feature case.
+(a).Specify how many object of one type is associates to how many object of the type. It may one to one, one to many or many to one.
+(b).Preciously identifies the type of relationship. A simple error define during the relationship may produce a bounder error.
+(c).Relationship is logical therefore check every type of relationship and their effect during the defined of relationship.
+(d).Apply the appropriate integrity entrants.
+5.IMPLEMENTATION OF RELATIONSHIP---Relationship implementation is associated with applying the Relationship during the development of system.Relationship should be apply and tested to be identify the effect and result.
+
+ASSOCIATION---Association is a type of one to one relationship without any direction.Association may participate define the relationship or constrains between object or actor and use case.Association can have name and visibility.It can be of different types.  
+1.NORMAL ASSOCIATION---It define a simple relationship between three classes.The association would be only from one direction and the direction will be expressed through an array.
+					Sometime the normal association define the control flow from both direction to expressed one to one,one to many,many to many,zero to one,zero to many etc.
+
+	    			M		kick			1
+													
+
+			1		USES					1
+
+
+2.RECURSIVE ASSOCIATION---It is an association from a class to itself.This type of association can be use to connect multiple classes in a rewind from so that moving from one direction can r each  at the same class at the end.
+				
+				
+
+
+			*																												*																																																																																																																																																																																																											3.QUALIFIED ASSOCIATION---	It can be used with one to many or many to many association.It specicify how a specific object at the many end of the association is identified and can be considered as a factor to discriminate all the object the in the association.
+
+4.OR ASSOCIATION---  It specify that the object of a class may participate at one association at a time.It means that an association among two objects only one object of a class can participate in the association.
+																																												OR										- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -																																											
+
+5.ORDERED ASSOCIATION---It is the line between the object that may have  implicit ordered or preference .The ordered association define the priority of object relationship. It can be shown by putting {ordered} next to the association, line.  
+																	0*				1*
+					{ORDERED}					
+
+6.ASSOCIATION  CLASS---An association class can have attribute of its own in which case it is both association  and a class.The association class is just like a normal class having attribute operation  and other association.The association class is used to add extra information on a link.Each link of the association is related to an object of the association class.
+				  																																																																																																																				
+
+7.TERNARY ASSOCIATION--- It is an association of more than three classes.It can be shown as a demand can be use show roles.The qualities an aggregation are not allows.
+ 
+																								Insurance									policy holder																AGGREGATION---	 Aggregation are the relationship and links which specify a whole part of relationship.they are transitive.It means that if A is a part of B,B is a part of C,than A is also a part of C.Sometime aggregation are also antisymetric.It means A is a part of B than B is not a part of A.
+					Aggregation can also describes the label of abstraction and can have a name in a diagram with direction.
+
+   PERSDDDDDD																											
+
+1.SHAIRED AGGREGATION--- It is the type of aggregation in which the part of a team or group.A team composed of team members and one person can be a number of many teams.
+																		*			*													*
+
+2.COMPOSITION  AGGREGATION---It is a type of aggregation that show the composition of class.It means that it show how a system can be formed from different component.it shows a strong ownership and life of parts.
+								*																										*																																							*																										*																										*																																					
+INTERFACE---Interface are classes that do not specify any implementation.They do not allow to have any attributes an interface is represented by a rectangle having two compartment.
+																
+																																												Interface the I name consist of the method add and substract.For an interface  to be meaningful a class.Must implement all method in the interface,if a class name inter demo realize the above interface it is defected in following figure…
+ 																																																																																																																																																																										
+Fig-class inter demo realize interface I name.
+					Interface can also be defected company by a small circle.These circle emanate from the classes that implement than as shown in figure… 
+											I NAME													
+
+					Compac notation for implements I name shown emanating from class INTERDEMO which implements it.
+
+The java code for INTERFACE realization.
+	Public interface IName
+{
+Void add (int a,int b);
+Void substract(int a,int b);
+}
+Public classes implement IName
+{
+Void add (int x,int y);
+{
+
+} void subtract (int p,int q);
+{
+
+}}
+
+PACKAGE--- Package is the general purpose mechanism use to organize related model element into a group. Elements may be attributes, operation, states; message etc. package may refer to other package.
+					Package can be used as a container or a name space with a unique name. Package may be rested or it can be also define their elements as private, public and protected.
+ 																										
+DEPENDENCY---It is the type of relationship between two model element in which one is independent called supplier and another is dependent called client. The dependency diagram shows the dependency of a class through an array composed with arrow. The head of the arrow points to the supplier.
+					Dependencies have element of exist at the same level of abstraction details. It means that dependent client elements and independent supplier may be describe at the same level.
+				A type of dependent is called friend dependency in which a model element can access the external structure of another model element.
+															...										
+	   Client							  supplier
+
+STATIC BEHAVIOR---The static behavior of a system define the fix attributes and method which are not affected by any condition or circumtences.The static behavior of a system may depends on a designing issues and attributes of an object or the system. The operating system or the system software is responsible for the identification and implementation of these behaviors.
+					The static behaviors are not flexible rather they are very useful in terms of consistency and the initialization of object. Some of the common static behaviors as a system are as follows…
+1. Class and its prototype.
+2. Association.
+3. Aggregation.
+
+Technique for specifying the static behavior---These are various object oriented technique applied by the developers to specify the static behavior sometime static behavior are also turned as compile time behavior or easily behavior. It specify that the static behavior are mostly implemented by the compiler design. The compilation of code or system some of the technique applied by the object oriented system to specify the static behavior is as follows…
+1. Interface.
+2. Refinement.
+3. Relationship and association.
+
+Technique for specifying control--- Control is very important for all type of system order to perform better without error. Control is necessary for all type of system to implement the proper step as well as to present the system to execute abnormal behavior. In order to implement the control over the behavior of the system. The programmer may have following techniques.
+1. User authentication and authorization.
+2. Validation and verification.
+3. Permission and proper privilege.
+4. User log.
+5. Training.
+
+DYNAMIC  BEHAVIOR---The dynamic behavior of an object specify that the behavior may be changeable according to time or situation.UML provides method to specify and module for dynamic of object. Some of the dynamic behavior of object are as follows…
+1. Managing.
+2. Interaction.
+3. States.
+4. Transition.
+5. Event
+TECHNIQUE FOR IDENTIFYING DYNAMIC BEHAVIOR---There are various technique applied by the UML to identify and forecast the dynamic behavior of object or system. Since dynamic behaviors are changeable with source of time and event analyzing tools and graph method would be the best approach to forecast the behaviors. The dynamic system user some trends either historical or statistical.Therefor the following method may be applied by the developers to identify the dynamic behavior.
+1. Statistical behavior.
+2. Graph and time diagram.
+3. Conditional branching.
+4. Network diagram.
+5. Pivotal charts and organizational charts.
+
+DOCUMENTING OF DYNAMIC BEHAVIOR--- Dynamic behavior may include event static message interaction etc.There are five different types of diagram can be used for modeling and documenting. The dynamic behavior some of the diagram used for modifying the dynamic behavior are as follows.
+1. State and diagram.
+
+  																																																																																									
+
+INTERACTION DIAGRAM—
+Server							client				
+			SYN							
+			RESPONSE					
+			CONNECT							
+				OK						
+			MESSAGE							
+			F1 OK						
+			TERMINATE							
+				OK									
+		CONNECT TERMINATION
+3. EVENT DIAGRAM—
+
+
+						event
+
+				
+RULES
+Rules in UML define the condition and criteria according to which two or more object interactive with each other. It also guides the mapping of parent and child object their specification. Rules are implemented to develop qualified software with runtime adaptation features some of the phase of rules in UML is as follows…
+1. Identification of statement--- This is the phase in which identify the declarative statement .this is the first phase that seen each and every part of the statement to implement the rule pressing.
+2. Specifying rules----- It is associated with the declaration and definition of the rules in order to define the implementation schema . This is the second phase in which rules are clearly defined in the native form to implement an object.
+3. Documenting rules---Documenting rules specify the diagram and algorithm used to define the specification of rules. It is each and important phase of UML responsible for implementing them an object.
+						Object Oriented technology used the rule to implement object oriented concept like inheritance, overriding, overloading etc. Rules are applied to map object. The mapping rules of UML are responsible for implementing the hierarchy of object in complex object oriented system. It is must for complex system to guideline the interaction rules between the object to maintain the consistency and a currency. For this purpose mapping rules can be applied.
+
+DOCUMENTING THE RULES USING UML---UML is responsible to specify the proper method for documenting the rules and their behavior. The documentation of rules may include the following object in the determine design of the system.
+1.	Diagram--- For documenting the rules U ML was interact diagram, deployment diagram, design tree, chart etc. To define the flow of statement together with their rules.
+
+2.	Expression and Statement----- These are the native form of rules specification. The expression and statement are defined in the proper way to specify the behavior object at the different state and transition.
+
+3.	Symbol and Flow control tree---- UML also uses different type of symbols and flow control trees to specify the rules regarding a partition procedure. These are the most commonly used component for rules specification and their implementation.
+
+Symbols for different type of rules
+Would be distinct and express the rules of raiding or simplicity. Whereas the flow control tree uses are to define the rules to flow the system control.
+
+IMPLEMENTATION RULES---- Implementation rules specify a set of protocols to implement the object during development of the system. Every design must have relevant rules to implement the system and system object so that the proposed system can achieve the system goals and objectives.
+						Implementation rules also contain diagram, symbols, expression etc. To define the procedure and protocols to implement the system object.
+
+
+</value>
+  </data>
+</root>
